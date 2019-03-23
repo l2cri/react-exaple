@@ -12,6 +12,7 @@ const App = (props) => {
             <div className="row">
               <div className="col-sm-5 info">
                 <Info />
+                <div>{ props.sunset}</div>
               </div>
               <div className="col-sm-7">
                 <Form weatherMethod={props.gettingWeather} />
