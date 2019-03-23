@@ -2,6 +2,7 @@ import React from 'react';
 import Info from './components/info';
 import Form from './components/form';
 import Weather from './components/Weather';
+import Clock from './components/clock';
 
 const App = (props) => {
     return (
@@ -15,6 +16,7 @@ const App = (props) => {
               <div className="col-sm-7">
                 <Form weatherMethod={props.gettingWeather} />
                 <Weather {...props.weather} />
+                <Clock />
               </div>
             </div>
           </div>
