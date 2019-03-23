@@ -4,7 +4,7 @@ import App from '../App'
 import * as WeatherActions from '../actions'
 
 const mapStateToProps = (state) => ({
-    counter: state.weather
+    weather: state.weather
 })
 
 const mapDispatchToProps = (dispatch) => {
